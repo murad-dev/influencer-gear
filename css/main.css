@@ -110,11 +110,11 @@ body {
     background: rgb(255, 255, 255);
 }
 
-.collection_box > img {
+.collection_box>img {
     border-radius: 5px;
 }
 
-.collection > h4 {
+.collection>h4 {
     color: rgb(24, 25, 31);
     font-family: Poppins;
     font-size: 1.5rem;
@@ -140,7 +140,7 @@ body {
 
 /* Featured products styles */
 
-.featured{
+.featured {
     margin-top: 6rem;
     display: flex;
     justify-content: space-between;
@@ -149,19 +149,20 @@ body {
 }
 
 
-.featured > h4{
+.featured>h4 {
     color: rgb(10, 8, 38);
     font-size: 2rem;
     font-weight: 700;
 }
 
-.featured > p{
+.featured>p {
     color: rgb(108, 108, 108);
     font-size: 1rem;
     font-weight: 700;
     margin-top: 2rem;
 }
-.featured .featured_btn{
+
+.featured .featured_btn {
     margin-top: 8px;
     padding: .8rem 1.4rem;
     color: rgb(255, 255, 255);
@@ -173,3 +174,43 @@ body {
 }
 
 /* footer styles */
+
+.footer_box {
+    margin-top: 5rem;
+    padding: 3.5rem 12rem;
+    background-color: rgb(10, 8, 38);
+    color: rgb(255, 255, 254);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer_content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.footer_content p {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin: 3px auto;
+}
+
+.footer_box .footer_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #23213C;
+    border-radius: 50%;
+    padding: 5px;
+  }
